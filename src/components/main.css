@@ -1,0 +1,23 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+.main-content{
+    height: 100%;
+    width: 70%;
+    border: 1px solid rgba(22, 21, 21, 0.623);
+}
+.main-aside{
+    height: 100%;
+    width: 30%;
+    background-color: brown;
+}
+.aside{
+    border: 1px solid rgba(22, 21, 21, 0.623);
+    width: 30%;
+}
+.blog-aside{
+    padding: 20px;
+    border: 1px solid rgba(22, 21, 21, 0.623);
+}
