@@ -8,8 +8,10 @@ function App() {
   return(
     <>
       <Navbar />
-      <Main />
+      <Main /> 
+      
         <Footer />
+        
       </>  
     )
 }
