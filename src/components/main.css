@@ -1,3 +1,7 @@
+/* main.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
 .main{
     display: flex;
     flex-direction: row;
@@ -22,6 +26,3 @@
     padding: 42px;
     border: 1px solid rgba(22, 21, 21, 0.623);
 }
-/* .readmore {
-    text-decoration: none;
-} */
