@@ -38,7 +38,7 @@ function Main() {
             <div className="blog" key={index}>
               <h3>{blog.title}</h3>
               <p>{blog.content}</p>
-              <Link class="readmore"to={blog.to}>Read More</Link>
+              <Link style = {{textDecoration:'none'}}to={blog.to}>Read More</Link>
             </div>
           );
         })}
