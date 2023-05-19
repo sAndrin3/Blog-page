@@ -26,3 +26,32 @@
     padding: 42px;
     border: 1px solid rgba(22, 21, 21, 0.623);
 }
+.navbar {
+    background-color: #A40163;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    
+    gap: 1rem;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    background-color: #ddd;
+  }
+.wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.par{
+    line-height: 1rem;
+    margin-top: 3rem;
+}

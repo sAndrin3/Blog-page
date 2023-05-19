@@ -5,6 +5,10 @@ import Fullstack from '../pages/Fullstack';
 import Training from '../pages/Training';
 import Application from '../pages/Application';
 import Notfound from '../pages/Notfound';
+import Home from '../pages/Home';
+import Contact from '../pages/Contact';
+import About from '../pages/About';
+
 
 function Main() {
   const blogs = [
@@ -66,6 +70,9 @@ function App() {
         <Route path="/training" element={<Training />} />
         <Route path="/application" element={<Application />} />
         <Route path="*" element={<Notfound />} />
+        <Route path="/Home" element={<Home/>} />
+        <Route path="/Contact" element={<Contact/>} />
+        <Route path="/About" element={<About/>} />
       </Routes>
     </Router>
   );
